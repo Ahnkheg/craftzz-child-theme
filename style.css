@@ -1,0 +1,60 @@
+/* 
+Theme Name: Craftzz Theme Child
+Theme URL: http://yourdomain.com
+Description: Craftzz Theme Child
+Theme Author: Jeroen Bessems
+Author URL: http://jeroenbessems.design
+Template: craftzz
+Version: 1.0.0 
+Text Domain: craftzz_child
+*/
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#page {
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+.entry-title {
+    display: none;
+}
+
+.site-main {
+    padding: 50px;
+}
+
+.wp-block-image img {
+    width: 100%;
+}
+
+.wp-block-button {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.wp-block-button__link {
+    width: 100%;
+    background: none;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 0;
+    color: #202020 !important;
+    font-weight: 600;
+}
+
+.wp-block-button__link > a {
+    color: #202020 !important;
+    font-weight: 800;
+}
+
+p > a {
+    color: #202020 !important;
+    text-decoration: none !important;
+}
+
+p > a:hover {
+    box-shadow: 0 2px 0 0;
+}
