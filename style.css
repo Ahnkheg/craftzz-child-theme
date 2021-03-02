@@ -24,6 +24,11 @@ body {
 }
 
 .site-main {
+    padding: 0;
+    background-color: #CFFCF1;
+}
+
+.site-main > .row > .landing-section {
     padding: 50px;
 }
 
