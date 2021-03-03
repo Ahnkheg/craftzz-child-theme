@@ -25,7 +25,7 @@
     <?php wp_body_open(); ?>
     <div id="page" class="site">
         <a class="skip-link screen-reader-text"
-            href="#primary"><?php esc_html_e( 'Skip to content', 'fsh_template' ); ?></a>
+            href="#primary"><?php esc_html_e( 'Skip to content', 'craftzz-child-template' ); ?></a>
 
         <header id="masthead" class="site-header">
             <div class="row">
@@ -34,5 +34,16 @@
 			the_custom_logo();
 			?>
                 </div><!-- .site-branding -->
+                <nav id="site-navigation" class="col-sm-10 main-navigation">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'craftzz-child-template' ); ?></button>
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+				)
+			);
+			?>
+		</nav><!-- #site-navigation -->
             </div>
         </header><!-- #masthead -->
